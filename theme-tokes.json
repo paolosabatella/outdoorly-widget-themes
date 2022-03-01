@@ -1,0 +1,841 @@
+{
+  "version": "85",
+  "values": {
+    "global": {
+      "Forest": {
+        "Surface": {
+          "Splash": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Default": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Pop": {
+            "value": "rgba({Primitives.Content}, 0.06)",
+            "type": "color"
+          },
+          "Raise": {
+            "value": "rgba({Primitives.Content}, 0.08)",
+            "type": "color"
+          },
+          "Accent": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Scrim": {
+            "value": "rgba({Primitives.Darkest}, 0.9)",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Content": {
+          "Default": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "rgba({Primitives.Content}, 0.8)",
+            "type": "color"
+          },
+          "Tertiary": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba({Primitives.Content}, 0.4)",
+            "type": "color"
+          },
+          "Negative": {
+            "value": "rgba({Primitives.Negative}, 1)",
+            "type": "color"
+          },
+          "Positive": {
+            "value": "rgba({Primitives.Positive}, 1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "rgba({Primitives.Warning}, 1)",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Inverted Secondary": {
+            "value": "rgba({Primitives.Lightest}, 0.7)",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Promo": {
+            "value": "rgba({Primitives.Promotional}, 1)",
+            "type": "color"
+          }
+        },
+        "Stroke": {
+          "Default": {
+            "value": "rgba({Primitives.Content}, 0.1)",
+            "type": "color"
+          },
+          "Pop": {
+            "value": "rgba({Primitives.Content}, 0.2)",
+            "type": "color"
+          },
+          "Raise": {
+            "value": "rgba({Primitives.Content}, 0.3)",
+            "type": "color"
+          },
+          "Strong": {
+            "value": "rgba({Primitives.Content}, 0.4)",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Interactive": {
+          "Primary": {
+            "Default": {
+              "value": "rgba({Primitives.Accent}, 1)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Accent}, 0.8)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Accent}, 1)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Accent}, 0.18)",
+              "type": "color"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Content}, 0.08)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Content}, 0.16)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            }
+          },
+          "Tertiary": {
+            "Default": {
+              "value": "rgba({Primitives.Content}, 0.08)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Content}, 0.16)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Content}, 0.24)",
+              "type": "color"
+            }
+          }
+        },
+        "Status": {
+          "Inverted Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "Inverted Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Neutral Surface": {
+            "value": "rgba({Primitives.Content}, 0.3)",
+            "type": "color"
+          },
+          "Neutral Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Navigation": {
+          "On Dark Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "On Dark Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "On Light Surface": {
+            "value": "rgba({Primitives.Content}, 0.08)",
+            "type": "color"
+          },
+          "On Light Content": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "On Content Surface": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "On Content Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "On Activator Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "On Activator Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          }
+        },
+        "Primitives": {
+          "Content": {
+            "value": "rgba({Primitives.Accent}, 1)",
+            "type": "color"
+          },
+          "Lightest": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "Darkest": {
+            "value": "hsla(69, 37%, 6%, 1)",
+            "type": "color",
+            "description": ""
+          },
+          "Positive": {
+            "value": "hsla(162, 100%, 37%, 1)",
+            "type": "color"
+          },
+          "Negative": {
+            "value": "hsla(4, 89%, 55%, 1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "hsla(26, 80%, 53%, 1)",
+            "type": "color"
+          },
+          "Promotional": {
+            "value": "hsla(4, 89%, 55%, 1)",
+            "type": "color"
+          },
+          "Accent": {
+            "value": "#3A3F1D",
+            "type": "color"
+          },
+          "IllustrationTop": {
+            "value": "#A9D5CD",
+            "type": "color"
+          },
+          "IllustrationBottom": {
+            "value": "#11150B",
+            "type": "color"
+          }
+        },
+        "Activator": {
+          "Surface": {
+            "value": "rgba({Primitives.IllustrationBottom}, 1)",
+            "type": "color"
+          },
+          "Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Content Secondary": {
+            "value": "rgba({Primitives.Lightest}, 0.7)",
+            "type": "color"
+          },
+          "Header": {
+            "value": "rgba({Primitives.Accent}, 1)",
+            "type": "color"
+          },
+          "Status Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "Status Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "Snow": {
+        "Surface": {
+          "Splash": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Default": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Pop": {
+            "value": "rgba({Primitives.Content}, 0.06)",
+            "type": "color"
+          },
+          "Raise": {
+            "value": "rgba({Primitives.Content}, 0.08)",
+            "type": "color"
+          },
+          "Accent": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Scrim": {
+            "value": "rgba({Primitives.Darkest}, 0.8)",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Content": {
+          "Default": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "rgba({Primitives.Content}, 0.8)",
+            "type": "color"
+          },
+          "Tertiary": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba({Primitives.Content}, 0.4)",
+            "type": "color"
+          },
+          "Negative": {
+            "value": "rgba({Primitives.Negative}, 1)",
+            "type": "color"
+          },
+          "Positive": {
+            "value": "rgba({Primitives.Positive}, 1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "rgba({Primitives.Warning}, 1)",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Inverted Secondary": {
+            "value": "rgba({Primitives.Lightest}, 0.7)",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Promo": {
+            "value": "rgba({Primitives.Promotional}, 1)",
+            "type": "color"
+          }
+        },
+        "Stroke": {
+          "Default": {
+            "value": "rgba({Primitives.Content}, 0.1)",
+            "type": "color"
+          },
+          "Pop": {
+            "value": "rgba({Primitives.Content}, 0.2)",
+            "type": "color"
+          },
+          "Raise": {
+            "value": "rgba({Primitives.Content}, 0.3)",
+            "type": "color"
+          },
+          "Strong": {
+            "value": "rgba({Primitives.Content}, 0.4)",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Interactive": {
+          "Primary": {
+            "Default": {
+              "value": "rgba({Primitives.Accent}, 1)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Accent}, 0.8)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Accent}, 1)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Accent}, 0.18)",
+              "type": "color"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Content}, 0.08)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Content}, 0.16)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            }
+          },
+          "Tertiary": {
+            "Default": {
+              "value": "rgba({Primitives.Content}, 0.08)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Content}, 0.16)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Content}, 0.24)",
+              "type": "color"
+            }
+          }
+        },
+        "Status": {
+          "Inverted Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "Inverted Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Neutral Surface": {
+            "value": "rgba({Primitives.Content}, 0.3)",
+            "type": "color"
+          },
+          "Neutral Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Navigation": {
+          "On Dark Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "On Dark Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "On Light Surface": {
+            "value": "rgba({Primitives.Content}, 0.08)",
+            "type": "color"
+          },
+          "On Light Content": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "On Content Surface": {
+            "value": "rgba({Primitives.Content}, 0.5)",
+            "type": "color"
+          },
+          "On Content Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "On Activator Surface": {
+            "value": "rgba({Primitives.Content}, 0.2)",
+            "type": "color"
+          },
+          "On Activator Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          }
+        },
+        "Primitives": {
+          "Content": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Lightest": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "Darkest": {
+            "value": "#0C161C",
+            "type": "color",
+            "description": ""
+          },
+          "Positive": {
+            "value": "hsla(162, 100%, 37%, 1)",
+            "type": "color"
+          },
+          "Negative": {
+            "value": "hsla(4, 89%, 55%, 1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "hsla(26, 80%, 53%, 1)",
+            "type": "color"
+          },
+          "Promotional": {
+            "value": "hsla(4, 89%, 55%, 1)",
+            "type": "color"
+          },
+          "Accent": {
+            "value": "#6A9BBE",
+            "type": "color"
+          },
+          "IllustrationTop": {
+            "value": "#6A9BBE",
+            "type": "color"
+          },
+          "IllustrationBottom": {
+            "value": "#F1F6F9",
+            "type": "color"
+          }
+        },
+        "Activator": {
+          "Surface": {
+            "value": "rgba({Primitives.IllustrationBottom}, 1)",
+            "type": "color"
+          },
+          "Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Content Secondary": {
+            "value": "rgba({Primitives.Content}, 0.7)",
+            "type": "color"
+          },
+          "Header": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Status Surface": {
+            "value": "rgba({Primitives.Darkest}, 0.2)",
+            "type": "color"
+          },
+          "Status Content": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "Anon": {
+        "Surface": {
+          "Splash": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Default": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color",
+            "description": ""
+          },
+          "Pop": {
+            "value": "rgba({Primitives.Content}, 0.04)",
+            "type": "color"
+          },
+          "Raise": {
+            "value": "rgba({Primitives.Content}, 0.08)",
+            "type": "color"
+          },
+          "Accent": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Scrim": {
+            "value": "rgba({Primitives.Darkest}, 0.8)",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Content": {
+          "Default": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Secondary": {
+            "value": "rgba({Primitives.Content}, 0.8)",
+            "type": "color"
+          },
+          "Tertiary": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "Disabled": {
+            "value": "rgba({Primitives.Content}, 0.4)",
+            "type": "color"
+          },
+          "Negative": {
+            "value": "rgba({Primitives.Negative}, 1)",
+            "type": "color"
+          },
+          "Positive": {
+            "value": "rgba({Primitives.Positive}, 1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "rgba({Primitives.Warning}, 1)",
+            "type": "color"
+          },
+          "Inverted": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "Inverted Secondary": {
+            "value": "rgba({Primitives.Lightest}, 0.7)",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Promo": {
+            "value": "rgba({Primitives.Promotional}, 1)",
+            "type": "color"
+          }
+        },
+        "Stroke": {
+          "Default": {
+            "value": "rgba({Primitives.Content}, 0.1)",
+            "type": "color"
+          },
+          "Pop": {
+            "value": "rgba({Primitives.Content}, 0.2)",
+            "type": "color"
+          },
+          "Raise": {
+            "value": "rgba({Primitives.Content}, 0.3)",
+            "type": "color"
+          },
+          "Strong": {
+            "value": "rgba({Primitives.Content}, 0.4)",
+            "type": "color"
+          },
+          "Emphasis": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Interactive": {
+          "Primary": {
+            "Default": {
+              "value": "rgba({Primitives.Accent}, 1)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Accent}, 0.8)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Accent}, 1)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Accent}, 0.18)",
+              "type": "color"
+            }
+          },
+          "Secondary": {
+            "Default": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Content}, 0.08)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Content}, 0.16)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            }
+          },
+          "Tertiary": {
+            "Default": {
+              "value": "rgba({Primitives.Content}, 0.08)",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "rgba({Primitives.Content}, 0.16)",
+              "type": "color"
+            },
+            "Pressed": {
+              "value": "rgba({Primitives.Lightest}, 1)",
+              "type": "color"
+            },
+            "Disabled": {
+              "value": "rgba({Primitives.Content}, 0.24)",
+              "type": "color"
+            }
+          }
+        },
+        "Status": {
+          "Inverted Surface": {
+            "value": "rgba({Primitives.Content}, 0.15)",
+            "type": "color"
+          },
+          "Inverted Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Neutral Surface": {
+            "value": "rgba({Primitives.Content}, 0.3)",
+            "type": "color"
+          },
+          "Neutral Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Navigation": {
+          "On Dark Surface": {
+            "value": "rgba({Primitives.Lightest}, 0.3)",
+            "type": "color"
+          },
+          "On Dark Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "On Light Surface": {
+            "value": "rgba({Primitives.Content}, 0.08)",
+            "type": "color"
+          },
+          "On Light Content": {
+            "value": "rgba({Primitives.Content}, 0.6)",
+            "type": "color"
+          },
+          "On Content Surface": {
+            "value": "rgba({Primitives.Content}, 0.5)",
+            "type": "color"
+          },
+          "On Content Content": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          },
+          "On Activator Surface": {
+            "value": "rgba({Primitives.Content}, 0.2)",
+            "type": "color"
+          },
+          "On Activator Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          }
+        },
+        "Primitives": {
+          "Content": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Lightest": {
+            "value": "#FFFFFF",
+            "type": "color"
+          },
+          "Darkest": {
+            "value": "#0C161C",
+            "type": "color",
+            "description": ""
+          },
+          "Positive": {
+            "value": "hsla(162, 100%, 37%, 1)",
+            "type": "color"
+          },
+          "Negative": {
+            "value": "hsla(4, 89%, 55%, 1)",
+            "type": "color"
+          },
+          "Warning": {
+            "value": "hsla(26, 80%, 53%, 1)",
+            "type": "color"
+          },
+          "Promotional": {
+            "value": "hsla(4, 89%, 55%, 1)",
+            "type": "color"
+          },
+          "Accent": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "IllustrationTop": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "IllustrationBottom": {
+            "value": "rgba({Primitives.Lightest}, 1)",
+            "type": "color"
+          }
+        },
+        "Activator": {
+          "Surface": {
+            "value": "rgba({Primitives.IllustrationBottom}, 1)",
+            "type": "color"
+          },
+          "Content": {
+            "value": "rgba({Primitives.Content}, 1)",
+            "type": "color"
+          },
+          "Content Secondary": {
+            "value": "rgba({Primitives.Content}, 0.7)",
+            "type": "color"
+          },
+          "Header": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          },
+          "Status Surface": {
+            "value": "rgba({Primitives.Darkest}, 0.2)",
+            "type": "color"
+          },
+          "Status Content": {
+            "value": "rgba({Primitives.Darkest}, 1)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "Anon": {},
+    "Snow": {}
+  }
+}
